@@ -59,7 +59,7 @@ pub fn main() {
     if !libs_dir.is_empty() {
         println!("cargo:rustc-link-search=native={libs_dir}");
     }
-    println!("cargo:rustc-link-lib=spirv-cross-c");
+    println!("cargo:rustc-link-lib=spirv-cross-c-shared");
     println!("cargo:rustc-link-lib=stdc++");
     let bindings = bindgen::Builder::default()
         // This is recommended I think?

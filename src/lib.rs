@@ -3,4 +3,7 @@
 #![allow(non_snake_case)]
 #![allow(unsafe_op_in_unsafe_fn)]
 
+#[cfg(test)]
+mod test;
+
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
