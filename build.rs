@@ -60,6 +60,7 @@ pub fn main() {
         println!("cargo:rustc-link-search=native={libs_dir}");
     }
     println!("cargo:rustc-link-lib=spirv-cross-c-shared");
+    #[cfg(not(target_env = "msvc"))]
     println!("cargo:rustc-link-lib=stdc++");
     let bindings = bindgen::Builder::default()
         // This is recommended I think?
