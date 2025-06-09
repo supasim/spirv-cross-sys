@@ -1,10 +1,11 @@
 [package]
-name = "spirv-cross-sys"
+name = "supasim-spirv-cross-sys"
 edition = "2024"
 resolver = "3"
+description = "SpirV-Cross bindings as used by supasim"
 
 [dependencies]
 
 [build-dependencies]
 cc = "1.2"
-bindgen = "0.71"
+bindgen = "0.72"
