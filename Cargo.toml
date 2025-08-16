@@ -12,5 +12,4 @@ homepage = "https://supasim.github.io/"
 [dependencies]
 
 [build-dependencies]
-cc = "1.2"
 bindgen = "0.72"

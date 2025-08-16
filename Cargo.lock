@@ -38,15 +38,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6a65b545ab31d687cff52899d4890855fec459eb6afe0da6417b8a18da87aa29"
 
 [[package]]
-name = "cc"
-version = "1.2.33"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3ee0f8803222ba5a7e2777dd72ca451868909b1ac410621b676adf07280e9b5f"
-dependencies = [
- "shlex",
-]
-
-[[package]]
 name = "cexpr"
 version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -211,7 +202,6 @@ name = "supasim-spirv-cross-sys"
 version = "0.0.2"
 dependencies = [
  "bindgen",
- "cc",
 ]
 
 [[package]]
